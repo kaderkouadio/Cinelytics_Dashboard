@@ -77,20 +77,20 @@ col1, col2 = st.columns([2, 1])
 with col1:
     st.image("C:\\Users\\kkade\\Desktop\\Cinelytics_Dashboard\\App_Streamlit\\Images\\Backend_Developer.png", width=600)
 
-with col2:
-    st.markdown(
-        """
-        <div style="display: flex; align-items: center; justify-content: center; height: 100%;">
-            <a href="https://github.com/JosueAfouda/films-analytics" target="_blank">
-                <button style="background-color: #28a745; color: white; padding: 12px 24px;
-                               border: none; border-radius: 8px; font-size: 16px; cursor: pointer;">
-                    📊 Cliquer pour voir le Code de la Phase 1
-                </button>
-            </a>
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
+# with col2:
+#     st.markdown(
+#         """
+#         <div style="display: flex; align-items: center; justify-content: center; height: 100%;">
+#             <a href="https://github.com/JosueAfouda/films-analytics" target="_blank">
+#                 <button style="background-color: #28a745; color: white; padding: 12px 24px;
+#                                border: none; border-radius: 8px; font-size: 16px; cursor: pointer;">
+#                     📊 Cliquer pour voir le Code de la Phase 1
+#                 </button>
+#             </a>
+#         </div>
+#         """,
+#         unsafe_allow_html=True
+#     )
 
 # Description de la phase
 st.markdown(
@@ -145,20 +145,20 @@ col1, col2 = st.columns([2, 1])
 with col1:
     st.image("C:\\Users\\kkade\\Desktop\\Cinelytics_Dashboard\\App_Streamlit\\Images\\Data_Analyst.png", width=600)
 
-with col2:
-    st.markdown(
-        """
-        <div style="display: flex; align-items: center; justify-content: center; height: 100%;">
-            <a href="https://github.com/JosueAfouda/films-analytics" target="_blank">
-                <button style="background-color: #28a745; color: white; padding: 12px 24px;
-                               border: none; border-radius: 8px; font-size: 16px; cursor: pointer;">
-                    📊 Cliquer pour voir le Code de la Phase 2
-                </button>
-            </a>
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
+# with col2:
+    # st.markdown(
+    #     """
+    #     <div style="display: flex; align-items: center; justify-content: center; height: 100%;">
+    #         <a href="https://github.com/JosueAfouda/films-analytics" target="_blank">
+    #             <button style="background-color: #28a745; color: white; padding: 12px 24px;
+    #                            border: none; border-radius: 8px; font-size: 16px; cursor: pointer;">
+    #                 📊 Cliquer pour voir le Code de la Phase 2
+    #             </button>
+    #         </a>
+    #     </div>
+    #     """,
+    #     unsafe_allow_html=True
+    # )
 
 # Présentation de la phase 2
 st.markdown(
