@@ -22,7 +22,8 @@ col1, col2, col3 = st.columns([1, 4, 1])
 # Colonne gauche : Image
 with col1:
     st.image(
-        "C:\\Users\\kkade\\Desktop\\Cinelytics_Dashboard\\App_Streamlit\\Images\\profil.jpg",
+        "Images/profil.jpg",
+        
         width=80,
         use_container_width=False,
     )
@@ -75,8 +76,8 @@ st.markdown(
 col1, col2 = st.columns([2, 1])
 
 with col1:
-    st.image("C:\\Users\\kkade\\Desktop\\Cinelytics_Dashboard\\App_Streamlit\\Images\\Backend_Developer.png", width=600)
-
+    # st.image("C:\\Users\\kkade\\Desktop\\Cinelytics_Dashboard\\App_Streamlit\\Images\\Backend_Developer.png", width=600)
+    st.image("images/Backend_Developer.png", width=600)
 # with col2:
 #     st.markdown(
 #         """
@@ -143,7 +144,8 @@ st.markdown(
 col1, col2 = st.columns([2, 1])
 
 with col1:
-    st.image("C:\\Users\\kkade\\Desktop\\Cinelytics_Dashboard\\App_Streamlit\\Images\\Data_Analyst.png", width=600)
+    # st.image("C:\\Users\\kkade\\Desktop\\Cinelytics_Dashboard\\App_Streamlit\\Images\\Data_Analyst.png", width=600)
+    st.image("images/Data_Analyst.png", width=600)
 
 # with col2:
     # st.markdown(
