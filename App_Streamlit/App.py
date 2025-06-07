@@ -81,7 +81,7 @@ with col1:
 #     st.markdown(
 #         """
 #         <div style="display: flex; align-items: center; justify-content: center; height: 100%;">
-#             <a href="https://github.com/JosueAfouda/films-analytics" target="_blank">
+#             <a href="https://github.com/kaderkouadio/Cinema_Insights" target="_blank">
 #                 <button style="background-color: #28a745; color: white; padding: 12px 24px;
 #                                border: none; border-radius: 8px; font-size: 16px; cursor: pointer;">
 #                     📊 Cliquer pour voir le Code de la Phase 1
@@ -149,7 +149,7 @@ with col1:
     # st.markdown(
     #     """
     #     <div style="display: flex; align-items: center; justify-content: center; height: 100%;">
-    #         <a href="https://github.com/JosueAfouda/films-analytics" target="_blank">
+    #         <a href="https://github.com/kaderkouadio/Cinelytics_Dashboard" target="_blank">
     #             <button style="background-color: #28a745; color: white; padding: 12px 24px;
     #                            border: none; border-radius: 8px; font-size: 16px; cursor: pointer;">
     #                 📊 Cliquer pour voir le Code de la Phase 2
