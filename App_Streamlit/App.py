@@ -21,12 +21,7 @@ col1, col2, col3 = st.columns([1, 4, 1])
 
 # Colonne gauche : Image
 with col1:
-    st.image(
-        "Images/profil.jpg",     
-        width=80,
-        use_container_width=False,
-    )
-
+    st.image("Images/profil.jpg", width=80, use_container_width=False)
 
 # Colonne centrale : Titre
 with col2:
